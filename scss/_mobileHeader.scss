@@ -1,0 +1,56 @@
+.mobile_header{
+    background-color: #060d17;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    z-index: 30;
+    border-bottom: 1px solid #c3c3c35f;
+    .mobile_header_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .mob_logo{
+            img{
+                max-height: 40px;
+                width: auto;
+                object-fit: contain;
+            }
+        }
+        .dashboard{
+            i{
+                font-size: 22px;
+                color: $white;
+                height: 40px;
+                width: 40px;
+                border: 1px solid #c3c3c3cb;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.offcanvas-start {
+    width: 280px;
+    border-right: 1px solid rgba(0,0,0,.2);
+    background-color: #262f3b;
+}
+
+.dashboard_body{
+    ul{
+        padding-left: 20px;
+        li{
+            padding: 6px 0;
+            a{
+                font-size: 15px;
+                font-weight: 400;
+                color: #e4e2e2;
+            }
+        }
+    }
+}
